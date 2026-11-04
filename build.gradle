@@ -1,0 +1,4 @@
+// SpeedBox 根构建脚本
+plugins {
+    id 'com.android.application' version '8.5.2' apply false
+}

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- osu!lazer OverlayColourScheme.Blue (Hue = 200) Pure Dark Hierarchy -->
+    <color name="osu_bg6">#FF171A1C</color>
+    <color name="osu_bg5">#FF22272A</color>
+    <color name="osu_bg4">#FF2E3538</color>
+    <color name="osu_bg3">#FF394247</color>
+    <color name="osu_bg2">#FF455054</color>
+    <color name="osu_bg1">#FF5C6B70</color>
+
+    <color name="osu_fg1">#FF8F9CA3</color>
+    <color name="osu_content2">#FFDCE9F0</color>
+    <color name="osu_content1">#FFFFFFFF</color>
+    <color name="osu_light2">#FF9EC4D9</color>
+
+    <!-- osu!lazer Official Accents (OsuColour.cs) -->
+    <color name="osu_highlight1">#FF66CCFF</color>
+    <color name="osu_colour0">#FF99DDFF</color>
+    <color name="osu_colour2">#FF33B5E5</color>
+    <color name="osu_pink">#FFFF66AB</color>
+    <color name="osu_back_fill">#FFDE31AE</color>
+    <color name="osu_back_border">#FFFF86DD</color>
+    <color name="osu_lime">#FFB2FF66</color>
+    <color name="osu_purple">#FF8C66FF</color>
+    <color name="osu_orange">#FFFFD966</color>
+    <color name="osu_red">#FFFF6666</color>
+    <color name="osu_cyan">#FF4FFFD5</color>
+</resources>

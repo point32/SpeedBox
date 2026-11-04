@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary">@color/osu_highlight1</item>
+        <item name="colorPrimaryVariant">@color/osu_colour2</item>
+        <item name="colorSecondary">@color/osu_pink</item>
+        <item name="android:windowBackground">@color/osu_bg6</item>
+        <item name="android:statusBarColor">@color/osu_bg6</item>
+        <item name="android:navigationBarColor">@color/osu_bg5</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

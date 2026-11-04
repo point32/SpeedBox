@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">谱面变速 SpeedBox</string>
+    <string name="hint_speed">输入倍率（如 1.1, 1.25）</string>
+    <string name="pick_input">选择谱面文件夹</string>
+    <string name="pick_output">选择输出文件夹</string>
+    <string name="start">立即开始变速</string>
+    <string name="ready">就绪：勾选难度 → 设定倍率/BPM → 开始生成</string>
+    <string name="license_note">SoundTouch (LGPL 2.1) · libvorbis (BSD) · 变速逻辑参考 OSU-Toolbox (MIT)</string>
+</resources>

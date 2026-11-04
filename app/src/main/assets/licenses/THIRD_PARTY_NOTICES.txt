@@ -1,0 +1,62 @@
+SpeedBox — third-party notices
+================================
+
+SpeedBox itself is licensed under the MIT License (see SpeedBox-MIT.txt).
+
+This file lists the third-party components distributed with, or derived into,
+SpeedBox. The full license texts are in this directory.
+
+1. osu!lazer / osu!framework (Java ports of UI, layout, easing, scrolling)
+   License: MIT
+   Copyright (c) 2025 ppy Pty Ltd <contact@ppy.sh>
+   Copyright (c) 2024 ppy Pty Ltd <contact@ppy.sh>
+   Text: osu-MIT.txt
+   No osu! image/audio/font assets are included.
+
+2. OSU-Toolbox (chart time-scaling semantics)
+   License: MIT
+   Copyright (c) 2026 Difficile
+   Text: OSU-Toolbox-MIT.txt
+
+3. SoundTouch (native audio time-stretch library, jniLibs/*/libsoundtouch.so)
+   License: GNU Lesser General Public License v2.1
+   Copyright (c) Olli Parviainen
+   Text: LGPL-2.1.txt
+   Source: https://www.surina.net/soundtouch/
+
+4. jump3r (pure-Java LAME MP3 encoder, de.sciss:jump3r:1.0.5)
+   License: GNU Lesser General Public License v2.1 or later
+   Copyright (c) The LAME project, Ken Händel, Vadym Vikulin,
+   Hanns Holger Rutz
+   Text: LGPL-2.1.txt
+   Source: https://git.iem.at/sciss/jump3r
+
+5. JOrbis / biniu Ogg Vorbis (pure-Java Vorbis codec)
+   License: GNU Library General Public License v2 or later (LGPL)
+   Copyright (C) 2000 ymnk, JCraft, Inc.
+   Text: LGPL-2.1.txt
+   Source is included in this repository (app/src/main/java/biniu).
+
+6. Xiph.Org libvorbis
+   License: BSD 3-Clause
+   Copyright (c) 2002-2020 Xiph.Org Foundation
+   Text: Vorbis-BSD.txt
+
+7. AndroidX Core (androidx.core:core:1.13.1)
+   License: Apache License 2.0
+   Copyright (c) The Android Open Source Project
+   Text: Apache-2.0.txt
+
+8. Material Components for Android (com.google.android.material:material:1.12.0)
+   License: Apache License 2.0
+   Copyright (c) Google LLC
+   Text: Apache-2.0.txt
+
+LGPL note
+---------
+SoundTouch and jump3r are used as separate, replaceable libraries (a shared
+.so and a jar) and are not statically merged into SpeedBox source. The
+corresponding source code is available at the URLs above. JOrbis source is
+included in this repository. If you redistribute a modified version of these
+libraries, you must comply with the LGPL, including providing the modified
+source.

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="theme_options">
+        <item>跟随系统</item>
+        <item>浅色模式</item>
+        <item>深色模式</item>
+    </string-array>
+    <string-array name="speed_units">
+        <item>倍率 ×</item>
+        <item>目标 BPM</item>
+    </string-array>
+    <string-array name="sort_options">
+        <item>按歌名 A-Z</item>
+        <item>按版本数最多</item>
+        <item>按主 BPM 升序</item>
+        <item>按主 BPM 降序</item>
+    </string-array>
+    <string-array name="filter_format_options">
+        <item>全部格式</item>
+        <item>仅 Malody (.mc/.mcz)</item>
+        <item>仅 osu! (.osu)</item>
+    </string-array>
+</resources>

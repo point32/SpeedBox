@@ -1,0 +1,47 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.speedbox'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.speedbox"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0.0"
+    }
+
+    signingConfigs {
+        release {
+            // CI/本地无密钥时自动回退到 debug 签名，保证随时随地可编译
+            if (project.hasProperty('SPEEDBOX_STORE_FILE')) {
+                storeFile file(SPEEDBOX_STORE_FILE)
+                storePassword SPEEDBOX_STORE_PASS
+                keyAlias SPEEDBOX_KEY_ALIAS
+                keyPassword SPEEDBOX_KEY_PASS
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            signingConfig signingConfigs.release
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    // 纯 Java MP3 编码器（LAME 移植）
+    implementation 'de.sciss:jump3r:1.0.5'
+    implementation 'androidx.core:core:1.13.1'
+    implementation 'com.google.android.material:material:1.12.0'
+}
