@@ -1,3 +1,8 @@
+/*
+ * Portions of this file are Java ports of osu!framework
+ * (https://github.com/ppy/osu-framework), Copyright (c) ppy Pty Ltd
+ * <contact@ppy.sh>, MIT License. See NOTICE / THIRD_PARTY_LICENSES.md.
+ */
 package com.speedbox.ui;
 
 import android.animation.Animator;

@@ -1,0 +1,81 @@
+SpeedBox
+Copyright (c) 2026 SpeedBox contributors
+
+This product includes software developed by third parties. The full license
+texts are in app/src/main/assets/licenses/ and the mapping below is also in
+THIRD_PARTY_LICENSES.md.
+
+================================================================================
+osu!lazer and osu!framework — MIT License
+Copyright (c) 2025 ppy Pty Ltd <contact@ppy.sh> (osu!lazer)
+Copyright (c) 2024 ppy Pty Ltd <contact@ppy.sh> (osu!framework)
+Upstream: https://github.com/ppy/osu , https://github.com/ppy/osu-framework
+
+SpeedBox contains hand-written Java ports of user-interface, layout, easing,
+menu and scroll code from these projects. No image, audio, font, skin or other
+binary asset from osu! is included; all visuals are redrawn with Android Canvas.
+
+Ported files and their upstream sources:
+  app/src/main/java/com/speedbox/ui/LazerUi.java
+      osu.Game/Graphics/OsuColour.cs
+      osu.Game/Graphics/UserInterface/ShearedButton.cs, OsuButton.cs,
+        DialogButton.cs, RoundedButton.cs
+      osu.Game/Overlays/Settings/SettingsPanel.cs, SettingsSidebar.cs,
+        SidebarButton.cs, SettingsSection.cs, SettingsFooter.cs
+      osu.Game/Graphics/Containers/OsuScrollContainer.cs
+      osu.Game/Screens/Select/Panel*.cs, StarCounter.cs, SpreadDisplay,
+        TrianglesV2.cs
+      osu.Game/Overlays/Toolbar/OsuLogo.cs
+  app/src/main/java/com/speedbox/ui/OsuContextMenuView.java
+      osu.Framework/Graphics/UserInterface/Menu.cs
+      osu.Framework/Graphics/Containers/ScrollContainer.cs
+      osu.Game/Graphics/UserInterface/OsuMenu.cs, OsuContextMenu.cs,
+        DrawableOsuMenuItem.cs
+      osu.Game/Graphics/Containers/OsuScrollContainer.cs
+  app/src/main/java/com/speedbox/ui/OsuNumberBoxView.java
+      osu.Game/Graphics/UserInterface/OsuTextBox.cs, OsuNumberBox.cs
+      osu.Framework/Graphics/UserInterface/BasicTextBox.cs
+  app/src/main/java/com/speedbox/ui/OsuTabControlView.java
+      osu.Game/Graphics/UserInterface/OsuTabControl.cs
+  app/src/main/java/com/speedbox/ui/SettingsDropdownView.java
+      osu.Game/Graphics/UserInterface/OsuDropdown.cs,
+        DrawableOsuDropdownMenuItem.cs
+  app/src/main/java/com/speedbox/ui/SettingsPanelView.java
+      osu.Game/Overlays/Settings/*.cs
+  app/src/main/java/com/speedbox/ui/CircularLongPressFeedbackView.java
+      osu.Framework/Graphics/Cursor/CursorContainer.CircularLongPressFeedback
+  app/src/main/java/com/speedbox/MainActivity.java (carousel/panel parts)
+      osu.Game/Screens/Select/Carousel.cs, BeatmapCarousel.cs, Panel*.cs,
+        SongSelect.cs, ScreenFooter.cs
+
+================================================================================
+OSU-Toolbox — MIT License
+Copyright (c) 2026 Difficile
+Upstream: https://github.com/XYboxl/OSU-Toolbox
+Used for chart time-scaling semantics (see app/src/main/java/com/speedbox/ChartSpeed.java).
+
+================================================================================
+SoundTouch — GNU Lesser General Public License v2.1
+Copyright (c) Olli Parviainen
+Upstream: https://www.surina.net/soundtouch/
+Distributed as unmodified shared libraries in app/src/main/jniLibs/.
+
+jump3r — GNU Lesser General Public License v2.1 or later
+The LAME project / Ken Händel / Vadym Vikulin / Hanns Holger Rutz
+Upstream: https://git.iem.at/sciss/jump3r
+
+JOrbis / biniu — GNU Library General Public License v2 or later
+Copyright (C) 2000 ymnk, JCraft, Inc.
+Source is included in app/src/main/java/biniu/.
+
+Xiph.Org libvorbis — BSD 3-Clause
+Copyright (c) 2002-2020 Xiph.Org Foundation
+
+================================================================================
+AndroidX Core — Apache License 2.0 (The Android Open Source Project)
+Material Components for Android — Apache License 2.0 (Google LLC)
+
+================================================================================
+AI-generated notice
+This project (including UI, business logic, ports and documentation) was
+generated with AI assistance and iterated under human direction.

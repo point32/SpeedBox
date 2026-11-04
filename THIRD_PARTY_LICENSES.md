@@ -16,6 +16,22 @@ third-party components used by, or ported into, SpeedBox. Full texts are in
 | AndroidX Core | Android support | Apache-2.0 | © The Android Open Source Project |
 | Material Components | Android widgets | Apache-2.0 | © Google LLC |
 
+## Ported osu! source files
+
+| SpeedBox file | Upstream osu! file(s) |
+|---|---|
+| `ui/LazerUi.java` | `OsuColour.cs`; `ShearedButton.cs`, `OsuButton.cs`, `DialogButton.cs`, `RoundedButton.cs`; `Overlays/Settings/*`; `OsuScrollContainer.cs`; `Screens/Select/Panel*.cs`, `StarCounter.cs`, `SpreadDisplay`, `TrianglesV2.cs`; `OsuLogo.cs` |
+| `ui/OsuContextMenuView.java` | `Menu.cs`, `ScrollContainer.cs`; `OsuMenu.cs`, `OsuContextMenu.cs`, `DrawableOsuMenuItem.cs`, `OsuScrollContainer.cs` |
+| `ui/OsuNumberBoxView.java` | `OsuTextBox.cs`, `OsuNumberBox.cs`, `BasicTextBox.cs` |
+| `ui/OsuTabControlView.java` | `OsuTabControl.cs` |
+| `ui/SettingsDropdownView.java` | `OsuDropdown.cs`, `DrawableOsuDropdownMenuItem.cs` |
+| `ui/SettingsPanelView.java` | `Overlays/Settings/*.cs` |
+| `ui/CircularLongPressFeedbackView.java` | `CursorContainer.CircularLongPressFeedback` |
+| `MainActivity.java` (carousel/panel parts) | `Carousel.cs`, `BeatmapCarousel.cs`, `Panel*.cs`, `SongSelect.cs`, `ScreenFooter.cs` |
+| `ChartSpeed.java` | OSU-Toolbox (MIT, © 2026 Difficile) |
+
+No osu! image, audio, font, skin or other binary asset is included.
+
 ## Notes
 
 - **No osu! assets are used.** The UI is drawn entirely with Android Canvas;

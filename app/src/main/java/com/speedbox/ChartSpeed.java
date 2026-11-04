@@ -1,3 +1,8 @@
+/*
+ * Time-scaling semantics derived from OSU-Toolbox
+ * (https://github.com/XYboxl/OSU-Toolbox), Copyright (c) 2026 Difficile,
+ * MIT License. See NOTICE / THIRD_PARTY_LICENSES.md.
+ */
 package com.speedbox;
 
 import org.json.JSONArray;

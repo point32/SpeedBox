@@ -1,3 +1,8 @@
+/*
+ * Carousel/panel/share portions of this file are Java ports of osu!lazer
+ * (https://github.com/ppy/osu), Copyright (c) ppy Pty Ltd <contact@ppy.sh>,
+ * MIT License. See NOTICE / THIRD_PARTY_LICENSES.md.
+ */
 package com.speedbox;
 
 import android.app.AlertDialog;

@@ -1,3 +1,9 @@
+/*
+ * Portions of this file are Java ports of osu!lazer / osu!framework
+ * (https://github.com/ppy/osu, https://github.com/ppy/osu-framework),
+ * Copyright (c) ppy Pty Ltd <contact@ppy.sh>, MIT License.
+ * See NOTICE / THIRD_PARTY_LICENSES.md / assets/licenses/osu-MIT.txt.
+ */
 package com.speedbox.ui;
 
 import android.animation.TimeInterpolator;
